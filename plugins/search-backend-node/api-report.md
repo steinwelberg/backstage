@@ -164,8 +164,6 @@ export type ScheduleTaskParameters = {
   scheduledRunner: TaskRunner;
 };
 
-export { SearchEngine };
-
 // @public
 export class TestPipeline {
   execute(): Promise<TestPipelineResult>;
